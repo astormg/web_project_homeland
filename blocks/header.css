@@ -1,0 +1,15 @@
+.header {
+    padding-top: 34px;
+    padding-bottom: 90px;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+}
+
+.header__logo-image {
+    width: 254px;
+    height: 70px;
+}
+
