@@ -1,0 +1,13 @@
+.intro {
+    margin: 92px 0 0 148px;
+}
+
+.intro__title {
+    width: 830px;
+    height: 116px;
+    font-family: Inter;
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 58px;
+    text-align: left;
+}
