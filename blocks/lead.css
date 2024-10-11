@@ -33,8 +33,10 @@
     margin: 64px auto 0;
     width: 984px;
     height: 615px;
+    overflow: hidden;
 }
 
 .lead__image {
     width: 100%;
+    object-fit: cover;
 }
