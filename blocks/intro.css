@@ -35,8 +35,8 @@
 
 .intro__content {
     margin: 32px 0 0 0;
-    width: 288px;
-    height: 442px;
+    width: 720px;
+    height: 182px;
     font-family: Inter;
     font-size: 1rem;
     font-weight: 400;
@@ -75,7 +75,12 @@
         line-height: 1.09375;
     }
 
-        .intro__quote {
+    .intro__quote {
         line-height: 1.25;
+    }
+
+    .intro__content {
+        width: 288px;
+        height: 442px;
     }
 }
