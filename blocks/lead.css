@@ -69,3 +69,34 @@
     object-fit: hidden;
 }
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .lead {
+        margin: 0 auto;
+        width: 320px;
+        height: 765px;
+    }
+    
+    .lead__title {
+        margin: 0 auto;
+        width: 530px;
+        height: 158px;
+        font-size: 4.6875rem;
+        line-height: 1.053;
+    }
+
+    .lead__subtitle {
+    margin: 25px auto 0;
+}
+
+    .lead__box-image {
+        margin: 30px 0 0;
+        width: 768px;
+        height: 480px;
+    }
+
+    .lead__image {
+    width: 100%;
+    object-fit: hidden;
+}
+}
