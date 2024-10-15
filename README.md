@@ -43,11 +43,3 @@ O projeto segue uma estrutura de pastas baseada na metodologia BEM Flat:
 2. Responsividade garantida com pontos de interrupção em 544px e 1024px.
 3. Fonte Inter usada e conectada localmente, com fontes do sistema como fallback.
 4. O código foi validado no W3C e segue as boas práticas de formatação e acessibilidade.
-
-## Instalação
-
-Para clonar e rodar o projeto localmente:
-```bash
-git clone https://github.com/seu-usuario/web_project_homeland.git
-cd web_project_homeland
-```
