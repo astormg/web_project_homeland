@@ -66,7 +66,6 @@
 
     .lead__image {
     width: 100%;
-    object-fit: hidden;
 }
 }
 
@@ -101,6 +100,5 @@
 
     .lead__image {
     width: 100%;
-    object-fit: hidden;
 }
 }
