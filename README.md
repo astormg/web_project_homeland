@@ -1,4 +1,4 @@
-# web_project_homeland
+# Web Project Homeland
 
 Este é o Projeto 5 da iniciativa **TripleTen**, onde desenvolvemos uma página web para mostrar as cidades natais de alguns funcionários da empresa. O projeto foca em criar um layout responsivo utilizando o Figma como base para o design.
 
