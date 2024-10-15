@@ -44,10 +44,6 @@ O projeto segue uma estrutura de pastas baseada na metodologia BEM Flat:
 3. Fonte Inter usada e conectada localmente, com fontes do sistema como fallback.
 4. O código foi validado no W3C e segue as boas práticas de formatação e acessibilidade.
 
-## Como Visualizar o Projeto
-
-O projeto está publicado no GitHub Pages e pode ser visualizado [aqui](#). 
-
 ## Instalação
 
 Para clonar e rodar o projeto localmente:
