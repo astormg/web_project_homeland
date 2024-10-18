@@ -1,0 +1,13 @@
+.places {
+  margin: 92px auto 0;
+  width: 984px;
+  height: 3338px;
+}
+
+.places__content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 832px 680px 830px 756px;
+  row-gap: 80px;
+}
