@@ -11,3 +11,87 @@
   grid-template-rows: 832px 680px 830px 756px;
   row-gap: 80px;
 }
+
+.places__content-item {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 460px 484px;
+  column-gap: 40px;
+  grid-template-rows: 1fr 460px 1fr;
+  column-gap: 40px;
+  row-gap: 48px;
+  grid-template-areas:
+    "title artist"
+    "image description"
+    "button description"
+  ;
+}
+
+.places__content-item__title {
+  grid-area: title;
+  margin: 0;
+  font-family: Inter;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 76px;
+  text-align: left;
+}
+
+.places__content-item__image {
+  grid-area: image;
+  margin: 0;
+  height: 460px;
+}
+
+.places__content-item__button {
+  grid-area: button;
+  width: 356.08px;
+  height: 48px;
+  padding: 0;
+  border: 0;
+  color: #FFFFFF;
+  background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
+}
+
+.places__content-item__artist {
+  grid-area: artist;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.places__content-item__artist-label {
+  margin: 0 0 8px;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+  letter-spacing: 0.12em;
+  text-align: left;
+  color: #AAAAAA;
+}
+
+.places__content-item__artist-names {
+  margin: 0;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.places__content-item__description {
+  grid-area: description;
+  margin: 0;
+}
+
+.places__content-item__description p {
+  margin: 0 0 25px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29.34px;
+  text-align: left;
+}
