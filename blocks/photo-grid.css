@@ -1,0 +1,19 @@
+.photo-grid {
+  margin: 118px auto 0;
+  width: 1184px;
+  height: 442px;
+  display: flex;
+}
+
+.photo-grid__content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 16px 16px;
+}
+
+.photo-grid__content-item {
+  width: 284px;
+  height: 213px;
+}
