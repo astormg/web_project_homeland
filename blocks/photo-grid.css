@@ -40,3 +40,27 @@
     height: 264px;
   }
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .photo-grid {
+    margin: 38px auto 0;
+    width: 288px;
+    height: 1812px;
+  }
+
+  .photo-grid__content {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    row-gap: 12px;
+  }
+
+  .photo-grid__content-item {
+    width: 288px;
+    height: 216px;
+  }
+
+  .photo-grid__content-item__image {
+    width: 288px;
+    height: 216px;
+  }
+}
