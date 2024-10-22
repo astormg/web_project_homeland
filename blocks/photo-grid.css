@@ -35,7 +35,7 @@
     height: 264px;
   }
 
-  .photo-grid__content-item__image {
+  .photo-grid__content-item-image {
     width: 352px;
     height: 264px;
   }
@@ -59,7 +59,7 @@
     height: 216px;
   }
 
-  .photo-grid__content-item__image {
+  .photo-grid__content-item-image {
     width: 288px;
     height: 216px;
   }

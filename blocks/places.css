@@ -26,7 +26,7 @@
   ;
 }
 
-.places__content-item__title {
+.places__content-item-title {
   grid-area: title;
   margin: 0;
   font-family: Inter;
@@ -36,17 +36,17 @@
   text-align: left;
 }
 
-.places__content-item__image {
+.places__content-item-image {
   grid-area: image;
   margin: 0;
   height: 460px;
 }
 
-.places__content-item__image:hover {
+.places__content-item-image:hover {
   background-image: #000000 50%;
 }
 
-.places__content-item__button {
+.places__content-item-button {
   grid-area: button;
   width: 356.08px;
   height: 48px;
@@ -61,12 +61,12 @@
   background-image: linear-gradient(90deg, #0278FE 0%, #003A7B 100%);
 }
 
-.places__content-item__button:hover {
+.places__content-item-button:hover {
   background: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
   box-shadow: 5px 5px 10px 0px #00000040;
 }
 
-.places__content-item__artist {
+.places__content-item-artist {
   grid-area: artist;
   margin: 0;
   display: flex;
@@ -74,7 +74,7 @@
   justify-content: flex-end;
 }
 
-.places__content-item__artist-label {
+.places__content-item-artist-label {
   margin: 0 0 8px;
   font-family: Inter;
   font-size: 0.75rem;
@@ -85,7 +85,7 @@
   color: #AAAAAA;
 }
 
-.places__content-item__artist-names {
+.places__content-item-artist-names {
   margin: 0;
   font-family: Inter;
   font-size: 1.125rem;
@@ -95,12 +95,12 @@
   color: #FFFFFF;
 }
 
-.places__content-item__description {
+.places__content-item-description {
   grid-area: description;
   margin: 0;
 }
 
-.places__content-item__description p {
+.places__content-item-description p {
   margin: 0 0 25px;
   font-family: Inter;
   font-size: 1.125rem;
@@ -127,16 +127,16 @@
     grid-template-rows: 1fr 340px 1fr;
   }
 
-  .places__content-item__title {
+  .places__content-item-title {
     font-size: 2.625rem;
     line-height: 1.095;
   }
 
-  .places__content-item__image {
+  .places__content-item-image {
     height: 340px;
   }
 
-  .places__content-item__description p {
+  .places__content-item-description p {
     font-size: 0.875rem;
     line-height: 1.5;
   }
@@ -168,33 +168,33 @@
   ;
   }
 
-  .places__content-item__title {
+  .places__content-item-title {
     font-size: 2rem;
     line-height: 1.09375;
     width: 288px;
     margin: 0 auto;
   }
 
-  .places__content-item__artist{
+  .places__content-item-artist{
         width: 288px;
         margin: 0 auto;
   }
 
-  .places__content-item__image {
+  .places__content-item-image {
     height: 320px;
   }
 
-  .places__content-item__description{
+  .places__content-item-description{
     width: 288px;
     margin: 0 auto;
   }
 
-  .places__content-item__description p {
+  .places__content-item-description p {
     font-size: 0.875rem;
     line-height: 1.5;
   }
 
-  .places__content-item__button {
+  .places__content-item-button {
     width: 288px;
     margin: 0 auto;
     font-size: 0.875rem;
