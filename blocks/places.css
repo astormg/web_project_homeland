@@ -43,7 +43,7 @@
 }
 
 .places__content-item-image:hover {
-  background-image: #000000 50%;
+  background: #00000080;
 }
 
 .places__content-item-button {
